@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+}
+.he{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: Bold;
+    color:white;
+    border-radius: 20px;
+/*    border-style: solid;*/
+/*    border-color:whitesmoke;*/
+/*    width=50px;*/
+    height: 160px;
+/*    margin-top: 100 px;*/
+    padding=100px;
+    margin= 0px;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.Recflight{
+    border-color: darkslateblue;
+    color:white;
+    background-color: darkslateblue;
+    
+}
+
+.booktab{
+    border-color: darkslateblue;
+    color:white;
+    background-color: darkslateblue;
+}
+border{
+    margin: 0px;
+}
+
+.nav{
+    color:white;
+}
+
+.pagestruct{
+    margin: auto;
+    background-color: RGB(190, 246, 250);
+    width:100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 0px;
+    padding: 10px;
+}
+.footer{
+    clear: both;
+    padding:2rem;
+    background-color: dodgerblue;
+    color:white;
+    width:1310px;
+    }
+.h2{
+    color:darkslateblue;
+}
+
+.mainimg{
+    text-align: center;
+}
+
+.navlink{
+    padding:10px;
+    margin: 5px;;
+    border:0.5px solid green;
+    display:inline-flex;
+    border-radius: 20px;
+    background-color: skyblue;
+    text-decoration: inherit;
+    color: blue;
+}
+
+.navlink:hover{
+    color:white;
+}
+
+.book{
+    border:1px solid blue;
+    text-decoration: inherit;
+    border-radius: 2px;
+    background-color: dodgerblue;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.img{
+/*    border:3px solid blue;*/
+    display: grid;
+}
+.bookchart{
+    text-align: center;
+}
+
+.signupcontainer{
+    width: 36rem;
+    border: 0.1rem solid dodgerblue;
+    border-radius: 0.4rem;
+    padding:1rem;
+    margin:auto;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+label{
+    display:block;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+.label-radio{
+    display: inline;
+}
+
+.form-element-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+input[type="text"],input[type="password"],select,textarea{
+    width:100%;
+    font-size:0.85rem;
+    border: none;
+    border-bottom: 0.25rem solid dodgerblue;
+    background-color: RGB(190, 246, 250);
+    outline: none;
+    color:darkslateblue;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,select:focus,textarea:focus{
+   border-bottom: 0.25rem solid darkslateblue;
+}
+
+input[type="submit"]{
+    background-color: dodgerblue;
+    padding: 1rem;
+    color:white;
+    font-weight: bold;
+    border: 0.1rem solid dodgerblue;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: darkslateblue;
+    padding: 1rem;
+    color:white;
+    font-size: 1rem;
+}
+
+@media screen and (min-width:414px) and (max-width:1024px){
+    .article{
+        width: 80%;
+        padding: 0;
+    }
+    .article-image{
+        width:40%
+    }
+}
+    }
+}

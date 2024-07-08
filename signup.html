@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Signup-Sakra Airlines </title>
+        <link rel="stylesheet" href="sakrastyles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="pagestruct">
+            <div class="he">
+                <h1 align="center"> Sakra Airlines </h1>
+                <a class="navlink" href="index.html" >Home</a>
+                <a class="navlink" href="bookings.html">My bookings</a>
+                <a class="navlink" href="destinations.html">Destinations</a>
+                <a class="navlink" href="login.html">Login</a>
+                <a class="navlink" href="signup.html">Signup</a>
+            </div>
+            <div class="signupcontainer">
+                <h2 class="h2"> Signup</h2>
+                <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+                    <div class="form-element-container">
+                        <div class="form-element">
+                            <label for="name">Name</label>  <input type="text" placeholder="Enter your name" id="name">
+                        </div>
+                        <div class="form-element">
+                            <label for="email">Email</label>  <input type="text" placeholder="eg:sakthi xyz@gmail.com" id="email">
+                        </div>
+                        <div class="form-element">
+                            <label for="un">Username</label>
+                            <input type="text" placeholder="Enter Username" id="un">
+                        </div>
+                        <div class="form-element">
+                            <label for="Password">Password</label> <input type="password" placeholder="Enter the password" id="Password">
+                        </div>
+                        <div class="form-element">
+                            <label for="colour">Colour</label> 
+                            <select id="colour">
+                                <option>Red</option>
+                                <option selected>Blue</option>
+                                <option>Green</option>
+                                <option>Violet</option>
+                            </select>
+                        </div>
+                        <div class="form-element">
+                            <label>Gender</label>
+                            <input type="radio" name="gender" id="male" checked>
+                            <label class="label-radio" for="male">Male</label>
+                            <input type="radio" name="gender" id="female">
+                            <label class="label-radio" for="female">Female</label>
+                        </div>
+                        <div class="form-element">
+                            <label for="students">I am a student</label>
+                            <input type="checkbox" checked>
+                        </div>
+                    </div>
+                    <div class="form-element">
+                        <label for="about">About me</label>
+                        <textarea id="about" placeholder="describe about yourself..."></textarea>
+                    </div>
+                    <input type="submit" values="Signup">
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright 2024 <br>This Page is created by Sakthivel S, An ECE Fresher contact:sakthivel16042002@gmail.com /+918220224330    
+        </div>
+    </body>
+</html>
